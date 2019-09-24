@@ -1,0 +1,36 @@
+
+.chung{
+	display: flex;
+
+}
+.anhnho{
+	display: flex;
+	justify-content: space-between;
+}
+.thatlung{
+	border:1px solid grey;
+}
+.do{
+	color: red;
+}
+.xam{
+	color: grey;
+}
+p.do{
+	color: red;
+}
+.bt{
+	background-color: orange;
+	color: white;
+	border:1px solid orange;
+	height: 30px;
+}
+.cach{
+	margin-left: 20px;
+}
+.anhte{
+	margin-right: 20px;
+}
+.duoi{
+	margin-top: 100px;
+}

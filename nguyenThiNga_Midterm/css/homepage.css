@@ -1,0 +1,208 @@
+
+.loga{
+	width: 100px;
+	height: 70px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+
+}
+.flex1{
+	display: flex;
+}
+.giohang{
+	width: 15px;
+	height: 15px;
+
+}
+.khung{
+	
+    width: 500px;
+    height: 40px;
+    margin-top: 50px;
+
+}
+.khung1{
+	display: flex;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+select{
+	border:2px solid orange;
+
+}
+.tex{
+	border:2px solid orange;
+}
+.a{
+	color:red;
+}
+.bt{
+	height: 50px;
+	width: 100px;
+	margin-top: 30px;
+	display: flex;
+}
+.timkiem{
+	width: 20px;
+	height: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+ 
+/*==Style cho menu===*/
+#menu ul {
+  background: orange;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+.sub-menu li {
+  display: none;
+}
+#menu li {
+ position: relative;
+}
+
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+#menu li:hover .sub-menu {
+ display: block;
+}
+.sub-menu li {
+ margin-left: 0 !important;
+}
+.do{
+	color: red;
+}
+.gach{
+	text-decoration: line-through;
+
+}
+.kinh{
+	width: 100px;
+	height: 80px;
+}
+.thanh{
+	display: flex;
+	margin-right: 10px;
+	margin-left: 400px;
+}
+.so{
+	display: flex;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.text{
+	border:1px solid lightgrey;
+	width: 150px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.tde{
+	height: 25px;
+	width: 1000px;
+	background-color: lightgrey;
+
+}
+.than{
+	display: flex;
+	justify-content: space-between;
+}
+.sp{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-top: 65px;
+	
+}
+.spc{
+	margin-left: 20px;
+	border:1px solid grey;
+
+
+}
+.vay{
+	width: 300px;
+}
+.dam{
+	font-size: 25px;
+}
+.spgiay{
+	border:1px solid pink;
+	width: 244px;
+	height: 387px;
+}
+.dsban{
+	display: flex;
+	margin-top: 30px;
+	
+	width: 1000px;
+
+}
+.giaynu{
+	width: 120px;
+	height: 100px;
+}
+.d{
+	color: pink;
+}
+.sp1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-top: 65px;
+	margin-right: 40px;
+
+
+}
+.dongho{
+	border:2px solid lightgrey;
+	border-top: 2px solid pink;
+	display: flex;
+	width: 1000px;
+}
+.giay1{
+	margin-right: 20px;
+	height: 387px;
+}
+.nd{
+	margin-bottom: 10px;
+	margin-top: 90px;
+}
+.xam{
+	color: grey;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.link{
+	text-decoration: none;
+	color: black;
+}
